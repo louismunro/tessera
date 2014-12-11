@@ -35,7 +35,7 @@ ds.transforms.register({
       name: query.name + '_deviant',
       targets: [
         group,
-        'alias(lineWidth(color(mostDeviant(' + group + ', 1), "red"), 2), "Most Deviant")'
+        'alias(lineWidth(color(mostDeviant(1, ' + group + '), "red"), 2), "Most Deviant")'
       ]
     })
 
